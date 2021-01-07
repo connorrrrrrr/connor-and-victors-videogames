@@ -1,3 +1,1 @@
-if (userName == 'Connor'){
-    document.getElementById("h2").style.color = "green";
-}
+stringVar = prompt("My site is not finished yet, okay?")
