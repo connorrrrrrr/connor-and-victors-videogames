@@ -1,5 +1,5 @@
 let userName ='';
-
+let message ='';
 
 function type(){
 userName = prompt('Please Enter Your Name');
@@ -19,4 +19,9 @@ function message1(){
 
 function message2(){
     stringVar = prompt("My site is not finished yet, okay? Type, 'ok' to continue.");
+    if (message = 'ok'){
+        alert('Welcome');
+    } else {
+        alert('please exit this site');    
     }
+}
