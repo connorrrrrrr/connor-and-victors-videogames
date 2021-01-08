@@ -17,7 +17,7 @@ function message1() {
 
 
 function message2() {
-    stringVar = prompt("My site is not finished yet, ok? Type, 'ok' to continue.");
+    stringVar = prompt('My site is not finished yet, ok? Type, "ok" to continue.');
     if (stringVar == 'ok') {
         alert('Welcome');
     } else {
@@ -56,8 +56,8 @@ function guessingGame() {
 }
 
 function message3() {
-    stringVar = prompt("How many stars would you rate this site?")
-    for (let i = 0; i <userResponse; i++) {
-        document.write('<img src=https://cdn.vox-cdn.com/thumbor/6ZwFtXaLm4Q41mQnkSzEtiRJr7o=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/21870028/Switch_SuperMario3DAllStars_SM64_screen_10.jpg>');
+    stringVar = prompt('How many stars would you rate this?');
+    for (let i = 0; i <stringVar; i++) {
+        document.write("<img src=https://cdn.vox-cdn.com/thumbor/6ZwFtXaLm4Q41mQnkSzEtiRJr7o=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/21870028/Switch_SuperMario3DAllStars_SM64_screen_10.jpg>");
     }
 }
